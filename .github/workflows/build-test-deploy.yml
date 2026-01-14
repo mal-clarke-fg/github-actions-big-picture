@@ -1,4 +1,4 @@
-name: build-test-deploy
+name: build-test-deploy 
 
 on: push
 
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkour repo
+      - name: checkout repo
         uses: actions/checkout@v4
 
       - name: use node.js
